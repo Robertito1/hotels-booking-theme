@@ -13,8 +13,12 @@ body {
   align-items: center;
 }
 .openingwriteup {
-  /* background-color: red; */
-  background-image: url("../images/heroimage.jpg");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("../images/heroimage.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 18rem;
@@ -42,7 +46,13 @@ body {
       rgb(89, 89, 104),
       transparent 
     ), */
-  background-image: url("../images/footerimg.jpg");
+
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("../images/footerimg.jpg");
   background-repeat: no-repeat;
   color: rgb(255, 255, 255);
   background-size: cover;
