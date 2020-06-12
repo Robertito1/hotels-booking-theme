@@ -16,13 +16,13 @@ body {
 .openingwriteup {
   background-image: linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
     ),
     url("../images/heroimage.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 18rem;
+  height: 20rem;
   width: 85rem;
   color: white;
   justify-content: center;
@@ -41,69 +41,69 @@ body {
   margin-top: 4rem;
 }
 .closingwriteup {
-  /* background-color: red; */
-  /* background-image: linear-gradient(
-      rgb(104, 86, 86),
-      rgb(89, 89, 104),
-      transparent 
-    ), */
-
   background-image: linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
     ),
     url("../images/footerimg.jpg");
   background-repeat: no-repeat;
   color: rgb(255, 255, 255);
   background-size: cover;
-  height: 23rem;
+  height: 30rem;
   width: 85rem;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
 form {
+  height: 36rem;
+  width: 33rem;
   display: block;
   margin: 0 auto;
-  height: 36rem;
-  width: 30rem;
-  border: none;
-  border-radius: 2px;
-  box-shadow: 0 4px 2px 1px rgb(102, 98, 98);
+
+  border: rgba(255, 255, 255, 0.6);
+  border-radius: 1.5px;
+  padding: 1rem;
+  box-shadow: 0 4px 2px 2px rgb(185, 182, 182);
 }
-/* .contactdata {
-  margin-right: 200px;
-}
-.contactform {
-  margin-left: 200px;
-} */
 
 button {
+  height: 3rem;
+  width: 9rem;
   border: none;
   margin-bottom: 1rem;
   margin-top: 0.5rem;
-  height: 3rem;
-  width: 6rem;
+  border-radius: 1px;
+  color: antiquewhite;
+  -webkit-transition: background-color 1s;
+  transition: background-color 1s;
+}
+button :hover {
+  background-color: brown;
 }
 .information {
   margin-bottom: 4rem;
 }
 .contactUsText {
-  margin-top: 8rem;
+  margin-top: 10rem;
+  margin-bottom: 1.5rem;
 }
 .closingremark {
   margin-top: 8rem;
+  margin-bottom: 1.5rem;
 }
 input {
   display: block;
   height: 3rem;
-  width: 20rem;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
+  width: 22rem;
+  background-color: rgb(252, 248, 248);
+  margin-bottom: 1.5rem;
+  margin-top: 0.4rem;
   border: none;
-  border-bottom: 2px solid rgb(77, 73, 73);
-  margin-left: 5rem;
+  border-bottom: 0.05px solid rgb(185, 182, 182);
+  margin-left: 4rem;
+  opacity: 50%;
 }
 label {
   margin-right: 10rem;
@@ -115,6 +115,15 @@ label {
 .dropamessage {
   margin-bottom: 2rem;
 }
+h3 {
+  font-weight: bolder;
+}
+.booknowbutton {
+  margin-top: 4rem;
+}
+.foreigntext {
+  margin-bottom: 0.3rem;
+}
 @media (max-width: 800px) {
   .contactmethods {
     display: flex;
@@ -124,5 +133,23 @@ label {
   }
   form {
     margin: 0 auto;
+    margin-left: 41rem;
+  }
+  .contactdata {
+    margin: 0 auto;
+    margin-left: 50rem;
+  }
+  .openingwriteup {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30rem;
+    width: 900px;
+    margin-left: 29rem;
+  }
+  .closingwriteup {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 900px;
+    margin-left: 29rem;
   }
 }
