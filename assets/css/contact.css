@@ -77,12 +77,8 @@ button {
   margin-top: 0.5rem;
   border-radius: 1px;
   color: antiquewhite;
-  -webkit-transition: background-color 1s;
-  transition: background-color 1s;
 }
-button :hover {
-  background-color: brown;
-}
+
 .information {
   margin-bottom: 4rem;
 }
@@ -111,7 +107,6 @@ label {
 }
 .sendbutton {
   margin-right: 14rem;
-  margin-top: 0.01rem;
 }
 .dropamessage {
   margin-bottom: 2rem;
